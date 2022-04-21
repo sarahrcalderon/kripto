@@ -33,13 +33,21 @@ a:hover {
 }
 
 @media (max-width: 700px) {
-  .footer {
-    grid-template-columns: 1fr;
-    gap: 60px;
+  footer {
+    gap: 5px;
+    background-color: #ffffff;
+    justify-content: center;
+    justify-items: center;
+  }
+  footer a {
+    color: #753b96;
+    font-size: 1.4rem;
   }
   .desenvolvido {
-    margin-top: 0px;
-    justify-items: center;
+    margin-top: 20px;
+    margin-left: start;
+    color: rgba(0, 0, 0, 0.571);
+    word-break: break-word;
   }
   .ul {
     display: flex;

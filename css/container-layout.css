@@ -165,29 +165,30 @@ h3 {
   .text-output-container img {
     display: none;
   }
+  #text-output {
+    word-break: break-word;
+  }
+
   .decry-btn {
     display: flex;
-    flex-wrap: wrap;
     background-color: transparent;
-    justify-items: center;
   }
   .encry-btn {
     display: flex;
-    flex-wrap: wrap;
     background-color: transparent;
-    justify-items: center;
   }
   .ref-btn {
     display: flex;
-    flex-wrap: wrap;
     color: #515151;
+    gap: 20px;
     background-color: transparent;
-    justify-items: center;
   }
   .ref-btn:hover {
     background-color: transparent;
   }
   .title {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    text-align: start;
+    word-break: break-word;
   }
 }
